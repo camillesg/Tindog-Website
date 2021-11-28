@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid {
+  padding:7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section {
+  background-color: #FF4C68;
+  color:#FFF;
+}
+
+.colored-section#testimonials, .colored-section#press {
+  background-color: #EF8172;
+}
+
+.white-section {
+  background-color: #FFF;
+}
+
+.white-section p {
+  color:#8F8F8F;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+  padding:3% 15% 7%;
+  text-align: left;
+}
+
+
+/* Title Image */
+
+.title-image {
+  transform:rotate(25deg);
+  width:60%;
+  position: absolute;
+  right:25%;
+}
+
+.title-image-container {
+  position: relative;
+}
+
+
+/* Download Button */
+
+.download-button {
+  font-weight: 400;
+  margin: 40px 20px 0 0;
+}
+
+
+/* Features Section */
+
+#features {
+  position:relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 20px;
+}
+
+.icon:hover {
+  color:#FF4C68;
+}
+
+
+/* Testimonials Section */
+
+#testimonials .container-fluid {
+  padding:7% 15% 3%;
+}
+
+.testimonial-text {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width:10%;
+}
+
+/* Press Section */
+
+.press-logo {
+  margin: 20px;
+  width: 18%;
+}
+
+
+/* Pricing Section */
+
+.pricing-top {
+  padding-bottom: 5%;
+}
+
+.card-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.pricing-text {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.unlimited-app-usage {
+  margin-bottom: 57px;
+}
+
+.pricing-column {
+  padding:0 2%;
+}
+
+
+/* Call to Action Section */
+
+.download-button {
+  margin-top:7%;
+}
+
+
+/* Footer Section */
+
+.contact-icon {
+  color:black;
+  margin:0 25px 80px 25px;
+}
+
+@media (max-width:976px) {
+  .title-image {
+    position: static;
+    transform:rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
